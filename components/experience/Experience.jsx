@@ -15,15 +15,15 @@ const Experience = () => {
         <h2 className="section__title">Experience 💼</h2>
         <span className="section__subtitle">What I work as</span>
 
-        <div className="exp__container container grid">
-            <div className="exp__content">
+        <div className="exp__container container grid" >
+            <div className="exp__content" >
                 <div>
                     <i className="uil uil-web-grid exp__icon"></i>
                     <h3 className="exp__title">Software <br /> Developer <br /> Trainee </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">Hani Solutions</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -32,8 +32,8 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Trainee <br /> Jun'24 - Currently Working🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at EXA AG.
+                        <h3 className="exp__modal-title">Software Developer Trainee <br /> May - Currently Working🧑🏻‍💻</h3>
+                        <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at Hani Solutions.
                             Providing quality work to clients and company.
                         </p>
 
@@ -57,7 +57,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-
+{/* 
             <div className="exp__content">
                 <div>
                     <i className="uil uil-arrow exp__icon"></i>
@@ -98,7 +98,7 @@ const Experience = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
   )

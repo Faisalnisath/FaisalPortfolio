@@ -44,14 +44,14 @@ const Frontend = () => {
                     </div>
                 </div>
 
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i className='bx bxl-typescript'></i>
 
                     <div>
                         <h3 className="skills__name">TypeScript</h3>
                         <span className="skills__level">Basic</span>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <div className="skills__group">
@@ -90,7 +90,7 @@ const Frontend = () => {
                         <span className="skills__level">Basic</span>
                     </div>
                 </div>
-
+{/* 
                 <div className="skills__data">
                     <i className='bx bxl-tailwind-css' ></i>
 
@@ -98,7 +98,7 @@ const Frontend = () => {
                         <h3 className="skills__name">Tailwind CSS</h3>
                         <span className="skills__level">Basic</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@ const Data = () => {
   const [isAnimating, setIsAnimating] = useState(true);
   
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const originalText = "Soumyajit Basak";
+  const originalText = "Faisal Nisath";
   const [displayText, setDisplayText] = useState(originalText);
 
   useEffect(() => {
@@ -110,7 +110,7 @@ const Data = () => {
       </h1>
 
       <h3 className="home__subtitle">Software Developer</h3>
-      <p className="home__description">I'm a creative developer based in Bengaluru, and I'm very passionate and dedicated to my work.</p>
+      <p className="home__description">I'm a creative developer, and I'm very passionate and dedicated to my work.</p>
 
       <a href="https://cal.com/soumyajit-basak" className="button button--flex">
         Say Hello
